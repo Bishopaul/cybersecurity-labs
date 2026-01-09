@@ -1,0 +1,53 @@
+# Nmap 7.94SVN scan initiated Fri Jan  9 21:50:48 2026 as: nmap -sV -Pn -oN router-192.168.1.1-scan.txt 192.168.1.1
+Nmap scan report for 192.168.1.1
+Host is up (0.0061s latency).
+Not shown: 996 closed tcp ports (conn-refused)
+PORT    STATE    SERVICE    VERSION
+23/tcp  filtered telnet
+53/tcp  open     domain     Unbound
+80/tcp  open     http
+443/tcp open     tcpwrapped
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.94SVN%I=7%D=1/9%Time=69616A3C%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,12FD,"HTTP/1\.0\x20200\x20OK\r\nConnection:\x20close\r\nCache-
+SF:Control:\x20no-cache,no-store\r\nPragma:\x20no-cache\r\nContent-Length:
+SF:\x20145038\r\nSet-Cookie:\x20SID=c34a878d5fd38ff25e9ae95a768e6709d762c5
+SF:b5fdb72814caf17c7198f4806b;\x20PATH=/;\x20HttpOnly;\x20SameSite=strict\
+SF:r\nSet-Cookie:\x20_TESTCOOKIESUPPORT=1;\x20PATH=/;\x20HttpOnly;\x20Same
+SF:Site=strict\r\nServer:\x20\r\nAccept-Ranges:\x20bytes\r\nX-Content-Type
+SF:-Options:\x20nosniff\r\nX-XSS-Protection:\x201;\x20mode=block\r\nConten
+SF:t-Security-Policy:\x20frame-ancestors\x20'self'\x20\r\nX-Frame-Options:
+SF:\x20SAMEORIGIN\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\n\r\n<
+SF:!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01\x20Transit
+SF:ional//EN\"\x20\"http://www\.w3\.org/TR/html4/transitional\.dtd\">\n<ht
+SF:ml\x20xmlns=\"http://www\.w3\.org/1999/xhtml\">\n<head>\n<meta\x20http-
+SF:equiv=\"Content-Type\"\x20content=\"text/html;\x20charset=utf-8\"\x20/>
+SF:\n<meta\x20http-equiv=\"X-UA-Compatible\"\x20content=\"IE=edge\">\n<lin
+SF:k\x20rel=\"shortcut\x20icon\"\x20href=\"/img/favicon\.ico\"\x20/>\n<tit
+SF:le>&#88;&#84;&#48;&#53;&#48;&#87;</title>")%r(HTTPOptions,5AF,"HTTP/1\.
+SF:1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\nContent-Type:\x20
+SF:text/html;\x20charset=iso-8859-1\r\nX-Content-Type-Options:\x20nosniff\
+SF:r\nX-XSS-Protection:\x201;\x20mode=block\r\nX-Frame-Options:\x20SAMEORI
+SF:GIN\r\nContent-Security-Policy:\x20frame-ancestors\x20'self';\x20\r\nCa
+SF:che-Control:\x20no-cache,no-store\r\nPragma:\x20no-cache\r\n\r\n\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20<html>\n\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20<head><title>400\x20Bad\x20Request</title></head>\n\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20<body\x20bgcolor=\"#FFFFFF\"\x20tex
+SF:t=\"#000000\"\x20link=\"#2020ff\"\x20vlink=\"#4040cc\">\n\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20<h2>400\x20Bad\x20Request</h2>\nYour\x20req
+SF:uest\x20has\x20bad\x20syntax\x20or\x20is\x20inherently\x20impossible\x2
+SF:0to\x20satisfy\.\n<div\x20style=\"display:none\">\n<ajax_response_xml_r
+SF:oot>\n<IF_ERRORSTR>SessionTimeout</IF_ERRORSTR>\n<IF_ERRORPARAM>SUCC</I
+SF:F_ERRORPARAM>\n<IF_ERRORTYPE>SUCC</IF_ERRORTYPE>\n</ajax_response_xml_r
+SF:oot>\n<span>Padding\x20so\x20that");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jan  9 21:51:09 2026 -- 1 IP address (1 host up) scanned in 20.85 seconds
